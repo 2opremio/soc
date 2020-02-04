@@ -91,3 +91,12 @@ Rationale: some labels are not very selective, or very rarely come up in queries
 - Recommended Skills:  Go
 - Mentor(s): Bryan Boreham (@bboreham)
 - Issue: https://github.com/cortexproject/cortex/issues/2068
+
+### Flux
+
+#### Improve observability and error reporting in Flux.
+
+- Description: Users have been requesting better observability and error reporting in Flux for a while. We should improve that situation, letting users monitor the state of Flux and diagnose any problems easily. Among other ways, this can be done by improving/replacing Flux's events API, improving logs and error reporting, adding Prometheus metrics and adding a Grafana dashboard.
+- Recommended Skills: Go, Prometheus, Grafana, Kubernetes
+- Mentor(s): Alfonso Acosta (@2opremio)
+- Issue: https://github.com/fluxcd/flux/issues/2812
